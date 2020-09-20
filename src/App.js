@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ConstructionView from './views/ConstructionView';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
-    <div>
-      
+    <div className="text-center">
+      <ConstructionView /> 
     </div>
   );
 }
