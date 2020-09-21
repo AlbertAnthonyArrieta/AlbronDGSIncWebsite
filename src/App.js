@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
+import './custom.scss';
 import ConstructionView from './views/ConstructionView';
-import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
