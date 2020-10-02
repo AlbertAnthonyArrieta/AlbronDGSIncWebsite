@@ -51,8 +51,8 @@
   height: 90vh;
 } 
 
-#landingSection{
-  height: 70vh;
+.slideItem{
+  height: 95vh;
 }
 
 #carousel-container{

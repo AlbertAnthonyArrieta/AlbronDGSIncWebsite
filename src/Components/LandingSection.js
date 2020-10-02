@@ -5,7 +5,7 @@ import img3 from "../images/p2.jpg";
 import Carousel from "react-bootstrap/Carousel";
 function LandingSection() {
   return (
-    <div>
+    <div className="text-center">
       <div id="carousel-container">
         <Carousel
           controls={false}
