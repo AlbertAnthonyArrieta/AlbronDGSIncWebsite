@@ -1,11 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import Navbar from '../Components/Navbar';
+import Slider from '../Components/Slider';
+import LandingSection from '../Components/LandingSection';
 function HomeView(){
     return(
         <div>
-            
-            <h1>INSERT PHOTO SLIDER HERE</h1>
+            <Navbar />
+            <LandingSection />
         </div>
     )
 }
