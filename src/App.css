@@ -47,20 +47,18 @@
   margin-left: .2rem;
 }
 
-#sliderContainer{
-  height: 90vh;
-} 
-
 .slideItem{
   height: 95vh;
 }
 
 #carousel-container{
-  position: absolute;
+  position: relative;
+  z-index: 0;
 }
 
 #landingText-container{
   position: relative;
+  z-index: 1;
 }
 
 #title-wrapper{
@@ -73,5 +71,10 @@
 #title-text{
   font-size: 5rem;
 }
+
+#landingSection{
+  margin-bottom: 2rem;
+}
+
 
 

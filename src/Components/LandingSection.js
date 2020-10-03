@@ -5,7 +5,17 @@ import img3 from "../images/p2.jpg";
 import Carousel from "react-bootstrap/Carousel";
 function LandingSection() {
   return (
-    <div className="text-center">
+    <div id="landingSection" className="text-center">
+     
+        
+
+      <div id="landingText-container">
+        <div id="title-wrapper">
+          <h1 className="text-white" id="title-text"><strong><span className="text-orange">ENGINEERING</span> DESIGN & DRAFTING</strong></h1>
+          <button className="orange-btn btn shadow text-orange">CONTACT</button>
+        </div>
+      </div>
+
       <div id="carousel-container">
         <Carousel
           controls={false}
@@ -36,12 +46,6 @@ function LandingSection() {
             />
           </Carousel.Item>
         </Carousel>
-      </div>
-      <div id="landingText-container">
-        <div id="title-wrapper">
-          <h1 className="text-white" id="title-text"><strong><span className="text-orange">ENGINEERING</span> DESIGN & DRAFTING</strong></h1>
-          <button className="orange-btn btn shadow text-orange">CONTACT</button>
-        </div>
       </div>
     </div>
   );
