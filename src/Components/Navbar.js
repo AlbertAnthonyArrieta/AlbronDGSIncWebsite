@@ -1,11 +1,12 @@
 import React from "react";
+import Logo from "../images/logo.png";
 function Navbar() {
   return (
-    <div>
+    <div className="sticky-top">
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
           <a className="navbar-brand" href="#">
-            ALBRON DGS INC
+            <img src={Logo} height="90rem"></img>
           </a>
           <button
             className="navbar-toggler"
@@ -23,22 +24,22 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Services
+                  Our Services
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  About
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                 Projects
+                 Our Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Contact
+                  Contact Us
                 </a>
               </li>
             </ul>

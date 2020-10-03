@@ -47,12 +47,25 @@
   margin-left: .2rem;
 }
 
+.navbar a{
+  font-size: 1.3rem;
+}
+
+.nav-item{
+  margin: rem !Important;
+}
+
+a:hover{
+  color: #F7931E !important;
+}
+
 .slideItem{
   height: 95vh;
 }
 
 #carousel-container{
   position: relative;
+  background-size: cover;
   z-index: 0;
 }
 
