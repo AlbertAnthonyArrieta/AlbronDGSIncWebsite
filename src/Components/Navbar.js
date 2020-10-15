@@ -1,12 +1,12 @@
 import React from "react";
-import Logo from "../images/logo.png";
+import Logo from "../images/NAVLOGO.png";
 function Navbar() {
   return (
     <div className="sticky-top">
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src={Logo} height="90rem"></img>
+            <img src={Logo} height="70rem"></img>
           </a>
           <button
             className="navbar-toggler"
