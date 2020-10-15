@@ -9,6 +9,10 @@ h1{
   font-size: 4rem !important;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .text-orange{
   color: #F7931E !important;
 }
@@ -25,6 +29,11 @@ h1{
   color: #F7931E;
   margin-right: .2rem;
   margin-left: .2rem;
+}
+
+.icon-border{
+  stroke: #4D4D4D;
+  stroke-width: 20;
 }
 
 .orange-btn{
@@ -52,8 +61,6 @@ h1{
 .big-logo{
   width: 25%;
 }
-
-
 
 .navbar a{
   font-size: 1.3rem;
@@ -95,6 +102,12 @@ a:hover{
 
 #landingSection{
   margin-bottom: 2rem;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
 }
 
 #contact{
