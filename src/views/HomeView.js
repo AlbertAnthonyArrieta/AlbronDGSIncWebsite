@@ -5,6 +5,7 @@ import ServiceSection from '../Components/ServiceSection';
 import AboutSection from '../Components/AboutSection';
 import ProjectSection from '../Components/ProjectSection';
 import ContactSection from '../Components/ContactSection';
+import Footer from '../Components/Footer';
 function HomeView(){
     return(
         <div>
@@ -14,6 +15,7 @@ function HomeView(){
             <AboutSection />
             <ProjectSection />
             <ContactSection />
+            <Footer />
         </div>
     )
 }

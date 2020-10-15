@@ -1,8 +1,13 @@
 /* Colors
 #F7931E - Orange
-#4D4D4D - Grey
+#292929 - Grey
 #FFFFFF - White
+#131313 - Black
 */
+
+h1{
+  font-size: 4rem !important;
+}
 
 .text-orange{
   color: #F7931E !important;
@@ -14,6 +19,12 @@
 
 .text-white{
   color: #ffffff !important;
+}
+
+.contact-icon{
+  color: #F7931E;
+  margin-right: .2rem;
+  margin-left: .2rem;
 }
 
 .orange-btn{
@@ -32,6 +43,7 @@
   color: white !important;
 }
 
+
 #construction-container{
   padding-top: 12%;
   padding-bottom: 12%;
@@ -41,11 +53,7 @@
   width: 25%;
 }
 
-.contact-icon{
-  color: #F7931E;
-  margin-right: .2rem;
-  margin-left: .2rem;
-}
+
 
 .navbar a{
   font-size: 1.3rem;
@@ -87,6 +95,16 @@ a:hover{
 
 #landingSection{
   margin-bottom: 2rem;
+}
+
+#contact{
+  background-color: #292929;
+  padding: 3rem;
+}
+
+#footer{
+  background-color: #131313;
+  color: #bdbdbd;
 }
 
 

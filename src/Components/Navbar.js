@@ -29,7 +29,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  About Us
+                  About
                 </a>
               </li>
               <li className="nav-item">
@@ -39,7 +39,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Contact Us
+                  Contact
                 </a>
               </li>
             </ul>
