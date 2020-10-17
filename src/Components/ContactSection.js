@@ -12,11 +12,13 @@ function ContactSection() {
               (403)-703-9251
         </h5>
 
-
+        <a href="mailto:aarrieta@albrondgsinc.com">
         <button className="orange-btn btn shadow text-orange mt-4">
+        
         <FontAwesomeIcon icon={faInbox} size="md" className="mr-2"/> 
         EMAIL
         </button>
+        </a>
 
 
 
