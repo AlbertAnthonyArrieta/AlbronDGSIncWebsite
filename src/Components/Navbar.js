@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../images/NAVLOGO.png";
 function Navbar() {
   return (
-    <div className="sticky-top">
+    <div id="navbar">
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
           <a className="navbar-brand" href="#">
@@ -18,27 +18,27 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarToggle">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#landingSection">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#serviceSection">
                   Our Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#aboutSection">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#projectSection">
                  Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
@@ -47,7 +47,10 @@ function Navbar() {
         </div>
       </nav>
     </div>
+    
   );
 }
+
+
 
 export default Navbar;

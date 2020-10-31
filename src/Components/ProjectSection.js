@@ -1,7 +1,7 @@
 import React from "react";
 function ProjectSection() {
   return (
-      <div>
+      <div id="projectSection">
           <h1>PROJECTS</h1>
       </div>
   );
