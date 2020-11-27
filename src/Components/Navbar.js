@@ -32,11 +32,11 @@ function Navbar() {
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#projectSection">
                  Projects
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
                   Contact

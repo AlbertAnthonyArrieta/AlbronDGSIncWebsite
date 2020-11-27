@@ -6,8 +6,8 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 
 function ServiceSection() {
   return (
-      <div id="serviceSection"  className="mt-5">
-          <div className="text-center m-5">
+      <div id="serviceSection">
+          <div className="text-center">
               <h1 className="text-grey mt-4">SERVICES</h1>
               <div className="container">
                   <div className="row m-5 p-5">

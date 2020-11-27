@@ -11,8 +11,10 @@ function LandingSection() {
 
       <div id="landingText-container">
         <div id="title-wrapper">
-          <h1 className="text-white" id="title-text"><strong><span className="text-orange">ENGINEERING DESIGN </span> & DRAFTING</strong></h1>
+          <h1 className="text-white title" id="title-text"><strong><span className="text-orange">ENGINEERING DESIGN </span> & DRAFTING</strong></h1>
+          <a href="#contact">
           <button className="orange-btn btn shadow text-orange">CONTACT</button>
+          </a>
         </div>
       </div>
 

@@ -11,9 +11,10 @@ function HomeView(){
         <div>
             <Navbar />
             <LandingSection />
-            <ServiceSection />
             <AboutSection />
-            <ProjectSection />
+            <ServiceSection />
+            
+            {/* <ProjectSection /> */}
             <ContactSection />
             <Footer />
         </div>

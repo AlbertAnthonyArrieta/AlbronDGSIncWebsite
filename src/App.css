@@ -6,6 +6,10 @@
 */
 
 h1{
+  font-size: 3rem !important;
+}
+
+.title{
   font-size: 4rem !important;
 }
 
@@ -44,6 +48,7 @@ ul{
   padding-right: 2rem  !important;
   font-size: 1.5rem  !important;
   color: #F7931E !important;
+  border-radius: 2px !important;
 }
 
 .orange-btn:hover, .lg-red-btn:focus, .lg-red-btn:active {
@@ -101,13 +106,19 @@ a:hover{
 }
 
 #landingSection{
-  margin-bottom: 2rem;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
   border-top: 86.60px solid #64C7CC;
+}
+
+#aboutSection{
+  background-color: #292929;
+}
+
+#serviceSection{
 }
 
 #contact{
