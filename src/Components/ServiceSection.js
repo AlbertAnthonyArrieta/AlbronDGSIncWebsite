@@ -17,7 +17,7 @@ function ServiceSection() {
                         <p>
                             We are a team of professional Mechanical Designers with extensive experience in Oil & Gas, 
                             Power Generation and various equipment fabrication. Our main goal is to provide the highest 
-                            quality mechanical design and drwaing package on schedule and on budget.
+                            quality mechanical design and drawing package on schedule and on budget.
                         </p>
                       </div>
                       <div className="col-md-4">
