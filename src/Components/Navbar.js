@@ -1,11 +1,12 @@
 import React from "react";
 import Logo from "../images/NAVLOGO.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 function Navbar() {
   return (
     <div id="navbar">
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand">
             <img src={Logo} height="70rem"></img>
           </a>
           <button
@@ -18,19 +19,39 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarToggle">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#landingSection">
+              <Link 
+                to="landingSection"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+              >
+                <a className="nav-link">
                   Home
                 </a>
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#serviceSection">
+              <Link 
+                to="serviceSection"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+              >
+                <a className="nav-link">
                   Our Services
                 </a>
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#aboutSection">
-                  About
-                </a>
+                <Link to="aboutSection"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                >
+                  <a className="nav-link">
+                    About
+                  </a>
+                </Link>
               </li>
               {/* <li className="nav-item">
                 <a className="nav-link" href="#projectSection">
@@ -38,9 +59,16 @@ function Navbar() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+              <Link 
+                to="contact"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+              >
+                <a className="nav-link">
                   Contact
                 </a>
+                </Link>
               </li>
             </ul>
           </div>
