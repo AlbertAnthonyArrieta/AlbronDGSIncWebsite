@@ -71,11 +71,15 @@ ul{
   font-size: 1.3rem;
 }
 
-#footer a:hover{
+.footerContact a:hover{
   color: #F7931E !important;
 }
 
 a:hover{
+  color: #ffffff !important;
+}
+
+nav a:hover{
   color: #F7931E !important;
 }
 
@@ -87,9 +91,7 @@ a{
   text-decoration: none !important;
 }
 
-a:hover{
-  color: #ffffff !important;
-}
+
 
 .slideItem{
   height: 95vh;
@@ -128,9 +130,22 @@ a:hover{
   text-decoration: none !important;
 }
 
+.contactCard{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 #footerContact{
   margin-top: 3rem;
   margin-bottom: 10rem;
+}
+
+#aboutLogo{
+  width: 400px;
+}
+
+#serviceRow{
+  margin: 5rem;
 }
 
 
@@ -159,7 +174,7 @@ a:hover{
 #footer{
   background-color: #131313;
   color: #bdbdbd;
-  padding: 20vh;
+  padding-bottom: 15vh;
   padding-top: 3vh;
 }
 
@@ -206,5 +221,51 @@ a:hover{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #######################MOBILE#################### */
+@media (max-width: 576px) {
+
+
+      h2{
+        font-size: 1.5rem !important;
+      }
+
+      .title{
+        font-size: 1.4rem !important;
+      }
+
+      #title-wrapper{
+        margin: 0rem !important;
+        margin-top: 20rem !important;
+      }
+
+      #aboutLogo{
+        width: 200px;
+        margin-bottom: 3rem;
+      }
+
+      #carousel-container{
+        width: 93.2vh;
+        transform: translateX(-384px);
+        object-fit: cover;
+      }
+}
+
+
+/* ######################Laptop Screen################# */
+@media (min-width: 1200px) {
+}
 
 

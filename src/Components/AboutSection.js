@@ -11,7 +11,7 @@ function AboutSection() {
             <div className="row">
 
               <div className="col-md-6">
-                <img src={Logo} width="400px"></img>
+                <img src={Logo} id="aboutLogo"></img>
               </div>
 
               <div className="col-md-6">

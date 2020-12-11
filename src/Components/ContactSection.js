@@ -6,7 +6,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 function ContactSection() {
   return (
       <div id="contact">
-        <h1 className="text-white mb-4">CONTACT</h1>
+        <h1 className="text-white mb-4">CONTACT US</h1>
         <div className="container">
         <h4 className="text-white mb-2">
           Feel free to contact us for your ideas to put into detail.

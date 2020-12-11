@@ -9,9 +9,9 @@ function ServiceSection() {
       <div id="serviceSection">
           <div className="text-center">
               <h1 className="text-grey mt-4">SERVICES</h1>
-              <div className="container">
-                  <div className="row m-5 p-5">
-                      <div className="col-4">
+              <div className="container-sm">
+                  <div id="serviceRow" className="row">
+                      <div className="col-md-4">
                          <FontAwesomeIcon icon={faTools} size="6x" className="m-3 text-orange icon-border"/>
                         <h2 className="text-grey">ENGINEERING DESIGN</h2>
                         <p>
@@ -20,7 +20,7 @@ function ServiceSection() {
                             quality mechanical design and drwaing package on schedule and on budget.
                         </p>
                       </div>
-                      <div className="col-4">
+                      <div className="col-md-4">
                          <FontAwesomeIcon icon={faDraftingCompass} size="6x" className="m-3 text-orange icon-border"/>
                         <h2 className="text-grey">DRAFTING SERVICES</h2>
                         <p>
@@ -30,7 +30,7 @@ function ServiceSection() {
                             and follow their standards.
                         </p>
                       </div>
-                      <div className="col-4">
+                      <div className="col-md-4">
                          <FontAwesomeIcon icon={faDollarSign} size="6x" className="m-3 text-orange icon-border"/>
                         <h2 className="text-grey">COST EFFECTIVENESS</h2>
                         <p>
