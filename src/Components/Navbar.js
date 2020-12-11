@@ -18,15 +18,15 @@ function Navbar() {
             </a>
           </Link>
 
-          
+
           <button
             className="navbar-toggler"
             data-toggle="collapse"
-            data-target="#navbarToggle"
+            data-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarToggle">
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link
