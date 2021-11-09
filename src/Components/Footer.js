@@ -30,7 +30,7 @@ function FooterSection() {
           </div>
 
         <p className="mb-0 p-2">Albron Designs & Graphic Systems Incorporated <span className="text-orange">©2020 All rights reserved.</span></p>
-          <p>Website Designed and Developed by <a className="text-orange" href="https://alobyte.dev/">Albert Arrieta.</a></p>
+          <p>Website Designed and Developed by <a className="text-orange" href="https://www.albertarrieta.dev/">Albert Arrieta.</a></p>
           
       </div>
   );
