@@ -35,8 +35,7 @@ function ServiceSection() {
                         <h2 className="text-grey">COST EFFECTIVENESS</h2>
                         <p>
                             We will be your Engineering Design and Drafting Team outside your office. We are a project cost
-                            and not an overhead cost for your company, no need to acquire workstations, softwares and programs
-                            and you can eliminate extra costs on cad administration and other support.
+                            and not an overhead cost for your company.
                         </p>
                       </div>
                   </div>
