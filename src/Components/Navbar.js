@@ -1,36 +1,67 @@
 import React from "react";
 import Logo from "../images/NAVLOGO.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 function Navbar() {
   return (
-    <div id="navbar">
+    <div id="navbar" className="sticky-top">
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <img src={Logo} height="70rem"></img>
-          </a>
+          <Link
+            to="landingSection"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+          >
+            <a className="navbar-brand">
+              <img src={Logo} height="70rem"></img>
+            </a>
+          </Link>
+
+
           <button
             className="navbar-toggler"
             data-toggle="collapse"
-            data-target="#navbarToggle"
+            data-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarToggle">
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#landingSection">
-                  Home
-                </a>
+                <Link
+                  to="landingSection"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                >
+                  <a className="nav-link">Home</a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="#serviceSection">
-                  Our Services
-                </a>
+                <Link
+                  to="aboutSection"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                >
+                  <a className="nav-link">About</a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="#aboutSection">
-                  About
-                </a>
+                <Link
+                  to="serviceSection"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                >
+                  <a className="nav-link">Services</a>
+                </Link>
               </li>
               {/* <li className="nav-item">
                 <a className="nav-link" href="#projectSection">
@@ -38,19 +69,22 @@ function Navbar() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  Contact
-                </a>
+                <Link
+                  to="contact"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                >
+                  <a className="nav-link">Contact</a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-    
   );
 }
-
-
 
 export default Navbar;

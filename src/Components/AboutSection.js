@@ -18,7 +18,7 @@ function AboutSection() {
 
                 <p className="text-white text-left pb-4">
                   Albron Designs & Graphic Systems Incorporated is Calgary based and has been providing engineering design and drafting services 
-                  to canadian companies from a wide range of industries including Oil & Gas, Power Generation Water Treatment, Manufacturing, 
+                  to canadian companies since 2012 from a wide range of industries including Oil & Gas, Power Generation, Water Treatment, Manufacturing, 
                   Equipment production, Mining, Civil/Structural Construction, and General Steel Fabrication.
                   <br />
                   <br />

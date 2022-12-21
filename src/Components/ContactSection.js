@@ -10,7 +10,7 @@ function ContactSection() {
         <div className="container">
         <h4 className="text-white mb-2">
           Feel free to contact us for your ideas to put into detail.
-          No job too big or small. If you're an individual contractor or a small fabricator, give us a call.
+          No job too big or small. If you're an individual contractor, innovator or a small fabricator, give us a call and let us know how we can help with your project.
           We are your team outside your office.
         </h4>
         </div>

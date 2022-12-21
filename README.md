@@ -6,5 +6,5 @@ This project was developed using React as the main front-end framework. Along wi
 
 
 
-Designed and Developed by Albert Arrieta aka Alobyte.
+Designed and Developed by Albert Arrieta
 
